@@ -1,0 +1,86 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #071739;
+    color: #e3c39d;
+}
+
+h2 {
+    color: #071739;
+    border-bottom: 2px solid #071739;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0;
+    border: 2px solid #e3c39d;
+}
+
+.project-card {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+footer {
+    background-color: #071739;
+    color: #e3c39d;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #cdd5db !important;
+}
+
+.progress-bar {
+    height: 20px;
+    line-height: 20px;
+}
+.tool-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #a68868;
+}
+
+h2 {
+    color: #071739;
+    border-bottom: 2px solid #071739;
+    padding-bottom: 5px;
+    text-align: center;
+}
