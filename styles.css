@@ -1,86 +1,56 @@
+/*  Colors
+        #252525 
+        #747877
+        #d2d6d8
+    fonts    gotu regular
+             abril fatface
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #252525 !important;
+    color: #d2d6d8 !important;
+
+}
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background: #252525;
+    color: #d2d6d8;
+    font-family:fantasy;
 }
-
-header {
-    background-color: #071739;
-    color: #e3c39d;
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: #d2d6d8;
 }
-
-h2 {
-    color: #071739;
-    border-bottom: 2px solid #071739;
-    padding-bottom: 5px;
-    text-align: center;
+h4, h5, h6 {
+    font-family: 'Gotu Regular', sans-serif;
+    color: #d2d6d8;
 }
-
-.profile-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50% 50% 0 0;
-    border: 2px solid #e3c39d;
+.container {
+    margin-top: 50px;
+    background-color: #252525;
 }
-
-.project-card {
-    background-size: cover;
+.row {
+    margin-bottom: 30px;
+    background-color: #252525;
+}
+.hero-bg {
+    background-image: url('images/hero-image.jpg')  ;
+}
+.hero-image {
+    background-image: url('images/hero-image.jpg');
+    height: 400px;
     background-position: center;
-    height: 200px;
-    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    
 }
-
-.project-card:hover {
-    transform: scale(1.05);
+.card_title {
+    color: #d2d6d8;
+    font-family: 'Abril Fatface', cursive;
 }
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 8px;
-}
-
-.project-card:hover .overlay {
-    opacity: 1;
-}
-
-footer {
-    background-color: #071739;
-    color: #e3c39d;
-}
-
-.nav-link {
-    font-weight: bold;
-}
-
-.nav-link:hover {
-    color: #cdd5db !important;
-}
-
-.progress-bar {
-    height: 20px;
-    line-height: 20px;
-}
-.tool-img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #a68868;
-}
-
-h2 {
-    color: #071739;
-    border-bottom: 2px solid #071739;
-    padding-bottom: 5px;
-    text-align: center;
+.card_text {
+    color: #d2d6d8;
+    font-family: 'Cormorant Garamond', serif;
 }
