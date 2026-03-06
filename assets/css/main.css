@@ -2187,6 +2187,9 @@ section,
   margin-bottom: 2rem;
 }
 
+.contact .contact-form a {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
 .contact .contact-form .form-control,
 .contact .contact-form .form-select {
   padding: 0.875rem 1.25rem;
